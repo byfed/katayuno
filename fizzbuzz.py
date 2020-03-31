@@ -3,7 +3,7 @@ FIZZ = 'Fizz'
 BUZZ = 'Buzz'
 NUMERO_FIZZ = 3
 NUMERO_BUZZ = 5
-
+ 
 class Kata:
 	def esDivisible(self,numero,divisor):
 		return True if numero%divisor==0 else False
